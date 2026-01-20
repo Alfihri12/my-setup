@@ -1,0 +1,12 @@
+# ❌ ignore semua
+*
+
+# ✅ izinkan folder yang kita mau
+!.config/
+
+# ✅ izinkan semua isi di dalamnya
+!.config/**
+
+
+# ✅ jangan ignore .gitignore sendiri
+!.gitignore

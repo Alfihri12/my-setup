@@ -1,0 +1,19 @@
+# ❌ ignore semua
+*
+
+# ✅ izinkan folder yang kita mau
+!hypr/
+!quickshell/
+!mako/
+!README.md
+!setup
+
+# ✅ izinkan semua isi di dalamnya
+!hypr/**
+!quickshell/**
+!mako/**
+!README.md
+!setup
+
+# ✅ jangan ignore .gitignore sendiri
+!.gitignore
